@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>Aysha AlMheiri</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <script src="script.js" defer></script>
+    <link rel="icon"  href="img/icon.jpeg"> 
+  </head>
+  <body>
+    <!--Navigation Bar-->
+    <div class="containter">
+      <nav>
+      <!--Logo of Site-->
+        <div class="logo">Aysha AlMheiri<b>.</b></div>
+      <!--Navigation Items in Nav Bar-->
+        <ul class="nav-items">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#work">Work</a></li>
+          <li><a href="resume.pdf" target="_blank">Resume</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        </div>
+      </nav>
+  </div>
+    <!--First Page of Site-->
+    <div class="slide1" class="home" id="home">
+      <div class="cols cols0">
+        <span class="topline">Hello</span>
+        <h1>I Am<br><span class="multitext"></span></h1>
+        </div>
+        <div class="cols cols1">
+          <div class="img">
+            <img src="img/profile3.png" class="profile">
+        </div>
+      </div>
+    </div>
+  <!-- Second Page of Site -->
+<div class="slide2 about" id="about">
+  <div class="content-container">
+    <div class="image-container">
+      <img class="profile2" src="img/pfp2.png">
+    </div>
+    <div class="text-container">
+      <div class="subtitle1">
+        <h3>About.</h3>
+      </div>
+      <!-- Description -->
+      <div class="subtext1">
+      Hi there! I am Aysha, a student pursing a Bachelor of Arts in Social Research and Public Policy and Interactive Media at New York University Abu Dhabi. I am designer, developer, writer, and multidisciplinary creative interested in the bridge between technology and society. <br><br> I'm also a member of the Student Government's Public Relations team and frequently take on projects revolved around design and user experience. My past experience is in graphic design, project management, community leadership, and front-end development. 
+      </div>
+    </div>
+  </div>
+</div>
+    <!--Third Page of Site-->
+  <div class="slide3" class="work" id="work">
+    <div class="subtitle2">
+     <p>Selected Projects</p>
+    </div>
+    <section id="portfolio">
+      <div class="gallery">
+          <a href="https://ayshaalmheiri.github.io/ayshaalmheiri/" target="_blank">
+              <img src="img/p1.png" >
+          </a>
+          <a href="https://adahafizh.github.io/Website2Comics/index.html" target="_blank">
+              <img src="img/p2.png" alt="">
+          </a>
+      <a href="https://ayshaalmheiri.github.io/CampusConspiracies-/" target="_blank">
+          <img src="img/p3.png" alt="">
+      </a>
+      <a href="https://ayshaalmheiri.github.io/BehindTheCamera/" target="_blank">
+          <img src="img/p4.png" alt="">
+      </a>
+      </div>
+      </section>
+    </div>
+   </div>
+   <div class="slide4" id="contact" >
+    <div class="contact-left">
+      <h1 class="sub-title" id ="contactme">Contact Me</h1>
+       <!-- Working form for sending message that will save it in Google Sheets file in my Google account -->
+       <div class="contact-right">
+        <form  action="https://formspree.io/f/mbjvnazz" method="POST">
+            <input type="text" name="Name" placeholder="Your Name" required>
+            <input type="email" name="Email" placeholder="Your Email" required>
+            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+            <button type="submit" class="btn btn2">Submit</button>
+        </form>
+        <span id="msg"></span>
+    </div>
+</div>
+</div>
+<div class="slide5">
+  <h2>With Love, Aysha 	&#127811;</h2>
+</div>
+    <!--Typing Effect From the First Page-->
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+  <script>
+    var typingEffect = new Typed(".multitext", {
+      strings : ["Aysha", "A Creative" , "A Web Developer" , "A Designer" ], 
+      loop : true, 
+      typeSpeed : 100,
+       backSpeed : 80,
+        backDelay : 1500
+    })
+    </script>
+   </div>
+  </body>
+</html>
