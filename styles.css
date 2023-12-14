@@ -340,6 +340,11 @@ form .btn2 {
   margin-top: 20px;
   margin-bottom: 20px;
   background-color: rgb(247, 247, 247);
-margin-left: 615px;
-color: gray;
+  margin-left: 615px;
+  color: gray;
 }
+
+.slide5:fullscreen{
+  margin-left: 715px;
+}
+
