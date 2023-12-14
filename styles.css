@@ -6,7 +6,7 @@
     box-sizing: border-box;
     font-family: 'Poppins', 'sans-serif';
  }
-@media only screen and (min-with: 2560px) {
+@media only screen and (min-width: 2560px) {
  .slide3::before{
   display: none;
 }
